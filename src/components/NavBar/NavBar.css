@@ -1,12 +1,13 @@
 .navbar{
     position: fixed;
-    top: 0;
+    top: 20px;
     width: 100%;
-    height: 14%;
+    height: 30px;
     display: flex;
     justify-content: space-between;
     background-color: #051726 ;
     box-shadow: 0 1% 4% 0 rgba(255, 255, 255, 0.591), 0 6px 20px 0 rgba(255, 255, 255, 0.203);
+    
    
 }
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
