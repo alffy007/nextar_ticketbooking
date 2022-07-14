@@ -1,4 +1,4 @@
-import react from 'react'
+
 import './Bookbar.css'
 import {API_KEY, imageUrl} from '../../constants/constants'
 import axios from '../../axios'
