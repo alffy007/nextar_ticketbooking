@@ -46,8 +46,8 @@ top: 20px;
 .sign {
     position: fixed;
 right: 60px;
-    width: 10%;
-    height:5%;
+    width: 100px;
+    height:20px;
     top: 20px;
     border-radius: 20px;
     font-size: larger;
