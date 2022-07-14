@@ -62,8 +62,8 @@ right: 60px;
 .place{
     font-family: 'Poppins', sans-serif;;
     position: fixed;
-right: 140px;
-    color: rgb(255, 255, 255);
+    right: 140px;
+    color: white;
     top: 20px;
     font-size: 500;
     cursor: pointer;
