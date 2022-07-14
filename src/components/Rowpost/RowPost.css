@@ -1,0 +1,35 @@
+.row{
+    margin-top: 100px;
+    margin-left: 60px;
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+}
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+.posters{
+    display: inline;
+ 
+  overflow-x: scroll;
+  overflow-y: hidden;
+
+}
+
+.posters::-webkit-scrollbar{
+    display: none;
+}
+
+.poster{
+    box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.591), 0 6px 20px 0 rgba(255, 255, 255, 0.203);
+    cursor: pointer;
+    max-height: 400px;
+    margin-right: 20px;
+margin-bottom: 30px;
+border-radius: 15px;
+}
+.poster:hover{
+    transform: scale(1.1)
+    
+}
+.icon{
+    height:40px;
+    width: 40px;
+}

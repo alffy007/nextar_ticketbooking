@@ -1,0 +1,41 @@
+.footer{
+position: relative;
+left: 0px;
+    color: white;
+
+}
+.logo1{
+    margin-top: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+width: 120px;
+height: 30px;
+
+
+}
+.heading{
+    line-height: 1.6;
+    
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.sub{
+    margin-left: 683px;
+    color: rgb(0, 255, 183);
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+p{
+ cursor: pointer;   
+}
+.p1:hover{
+    transform: scale(1.1);
+}
+.p2:hover{
+    transform: scale(1.1);
+}
+hr{
+    background-color: aquamarine;
+    height: 3px;
+}
