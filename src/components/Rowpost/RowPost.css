@@ -35,5 +35,5 @@ border-radius: 15px;
     cursor: pointer;
 }
 .icon:hover{
-    transform:scale(0.6):
+    transform: scale(0.6)
 }
