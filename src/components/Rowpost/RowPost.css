@@ -32,4 +32,8 @@ border-radius: 15px;
 .icon{
     height:40px;
     width: 40px;
+    cursor: pointer;
+}
+.icon:hover{
+    transform:scale(0.6):
 }
