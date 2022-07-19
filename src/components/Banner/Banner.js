@@ -3,15 +3,15 @@ import './Banner.css'
 import {API_KEY,imageUrl} from '../../constants/constants'
 import axios from '../../axios'
 import {Link} from 'react-router-dom'
-
+import {} from 'framer-motion'
 function Banner() {
 
     const [Movie, setMovie] = useState()
      useEffect(() => {
       axios.get(`trending/all/week?api_key=${API_KEY}&language=en-US`).then((Response=>{
         setInterval(()=>{
-            setMovie(Response.data.results[Math.floor(Math.random() * Response.data.results.length -1)])
-            console.log(Math.floor(Math.random() * Response.data.results.length -1)!==-1)
+            <motion.div initial={{opacity:0}} animate={{opacity:1}} exit={{opacity:0}}
+            setMovie(Response.data.results[Math.floor(Math.random() * Response.data.results.length -1)]
         },5000)}
       ))},[])
 
