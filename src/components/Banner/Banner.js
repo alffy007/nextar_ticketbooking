@@ -3,7 +3,7 @@ import './Banner.css'
 import {API_KEY,imageUrl} from '../../constants/constants'
 import axios from '../../axios'
 import {Link} from 'react-router-dom'
-import {} from 'framer-motion'
+import {motion} from 'framer-motion'
 function Banner() {
 
     const [Movie, setMovie] = useState()
